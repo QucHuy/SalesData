@@ -1,4 +1,5 @@
 - First, declare variables in appconf file 
 - Second, run the kafkaproducer.py to generate faking data
 - Third, cd to your code file and run the command below
-"""spark-submit --master local[*] --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0,mysql:mysql-connector-java:5.1.49 --files D:\\Real-timeSales\\app.conf D:\\Real-timeSales\\realtime_data_processing.py"""
+  
+'''spark-submit --master local[*] --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0,mysql:mysql-connector-java:5.1.49 --files D:\\Real-timeSales\\app.conf D:\\Real-timeSales\\realtime_data_processing.py'''
